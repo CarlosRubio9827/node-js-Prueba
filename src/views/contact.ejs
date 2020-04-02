@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= title%></title>
+    <%- include ("partials/head.html") %>
+    
+  
+</head>
+
+<body>
+    
+    <%- include ("partials/navigation.html") %>
+
+
+    <div class="container p-5">
+        <header class="row">
+            <div class="col-lg-4 offset-md-4">
+                <div class="card animated swing">
+                    <div class="card-header bg-dark text-center text-white">
+                        <h4>Form Contact</h4>
+                    </div>
+                    <div class="card-body">
+                        <form action="#">
+                            <div class="form-group">
+                                <input class="form-control" placeholder="Name" type="text">
+                            </div>   
+                            <div class="form-group">
+                                <input class="form-control" placeholder="Email" type="email">
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control" placeholder="Phone" type="number">
+                            </div>
+                            <div class="form-group">
+                                <input type="Submit" class="btn btn-success btn-block" value="Submit">
+                            </div>
+                            
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </header>    
+    </div>
+    
+</body>
+
+    <%- include ("partials/foot.html") %>
+
+</html>
